@@ -33,7 +33,7 @@ enum {
 
 class IBatteryPropertiesRegistrar : public IInterface {
 public:
-    DECLARE_META_INTERFACE(BatteryPropertiesRegistrar);
+    DECLARE_META_INTERFACE(BatteryPropertiesRegistrar)
 
     virtual void registerListener(const sp<IBatteryPropertiesListener>& listener) = 0;
     virtual void unregisterListener(const sp<IBatteryPropertiesListener>& listener) = 0;
